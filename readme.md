@@ -21,7 +21,7 @@ sans pour autant prendre les mesures exactes de chaque padding ou margin.
   Cette classe est déjà appliquée dans le code HTML, la modal est donc affichée.
   Dans le chapitre "javascript" cette classe sera supprimée pour pouvoir afficher/cacher la modal.
 
-![](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/modal.png?raw=true)
+![Image de la modal](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/modal.png?raw=true)
 
 ## PHP
 
@@ -45,7 +45,7 @@ Un élément de liste se compose comme suit:
 </div>
 ```
 
-![](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/listing.png?raw=true)
+![Image du listing](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/listing.png?raw=true)
 
 ## JavaScript
 
