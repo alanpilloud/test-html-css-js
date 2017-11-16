@@ -68,5 +68,4 @@ Lorsque votre test est terminé, zippez-le, puis renommez le fichier comme suit 
 
 test-[nom]-[prénom].zip
 
-Envoyez le fichier à alan@bwap.ch
-
+Veuillez ensuite me renvoyer le fichier .zip par email.
