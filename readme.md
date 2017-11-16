@@ -7,13 +7,12 @@ Chaque élément de la liste possède un bouton qui permet d'afficher une modal.
 
 Commencez par visionner les images contenues dans le dossier /images.
 
-# Pre-requis pour ce test
+## Pre-requis pour ce test
 
  - Environnement PHP 7
  - Google Chrome, version à jour
 
-              
-# CSS
+## CSS
 
 Écrivez la CSS de la modal sans éditer le code html.
 
@@ -24,7 +23,7 @@ sans pour autant prendre les mesures exactes de chaque padding ou margin.
   Cette classe est déjà appliquée dans le code HTML, la modal est donc affichée.
   Dans le chapitre "javascript" cette classe sera supprimée pour pouvoir afficher/cacher la modal.
 
-# PHP
+## PHP
 
 Recupérez les données contenues dans le fichier data.json pour les afficher en liste.
 
