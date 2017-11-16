@@ -5,8 +5,6 @@ Ce document décrit les différentes étapes à réaliser pour votre test de can
 Le but est de réaliser une liste d'éléments à partir d'une source de données fournie.
 Chaque élément de la liste possède un bouton qui permet d'afficher une modal.
 
-Commencez par visionner les images contenues dans le dossier /images.
-
 ## Pre-requis pour ce test
 
  - Environnement PHP 7
@@ -22,6 +20,8 @@ sans pour autant prendre les mesures exactes de chaque padding ou margin.
 > A noter la particularité suivante: la modal est affichée grâce à la classe .modal--visible.
   Cette classe est déjà appliquée dans le code HTML, la modal est donc affichée.
   Dans le chapitre "javascript" cette classe sera supprimée pour pouvoir afficher/cacher la modal.
+
+![Image de la modal](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/modal.png)
 
 ## PHP
 
@@ -42,6 +42,8 @@ Un élément de liste se compose comme suit:
         <a class="btn" href="#">supprimer</a>
     </div>
 </div>
+
+![Image du listing](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/listing.png)
 
 ## JavaScript
 
