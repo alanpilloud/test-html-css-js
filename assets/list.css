@@ -1,0 +1,25 @@
+/**
+ * Ce fichier n'a pas besoin d'être édité
+ */
+.list {
+    margin: 30px 0;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 0;
+    color: #999;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.list__item + .list__item {
+    margin-top: -1px; 
+}
+
+.list__title {
+    color: #333;
+    margin-bottom: 5px;
+}
