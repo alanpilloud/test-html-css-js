@@ -17,11 +17,11 @@ Chaque élément de la liste possède un bouton qui permet d'afficher une modal.
 Le résultat doit se rapprocher au plus de l'exemple fourni dans /images/modal.png
 sans pour autant prendre les mesures exactes de chaque padding ou margin.
 
-> A noter la particularité suivante: la modal est affichée grâce à la classe .modal--visible.
+> A noter la particularité suivante: la modal est affichée grâce à la classe `modal--visible`.
   Cette classe est déjà appliquée dans le code HTML, la modal est donc affichée.
   Dans le chapitre "javascript" cette classe sera supprimée pour pouvoir afficher/cacher la modal.
 
-![Image de la modal](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/modal.png)
+![](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/modal.png)
 
 ## PHP
 
@@ -32,6 +32,7 @@ Afin de ne pas être dérangé par la modal, supprimez sa classe `modal--visible
 
 Un élément de liste se compose comme suit:
 
+```
 <div class="list__item">
     <div class="list__content">
         <div class="list__title">Nom d'application</div>
@@ -42,8 +43,9 @@ Un élément de liste se compose comme suit:
         <a class="btn" href="#">supprimer</a>
     </div>
 </div>
+```
 
-![Image du listing](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/listing.png)
+![](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/listing.png)
 
 ## JavaScript
 
@@ -54,7 +56,7 @@ Vous avez maintenant le droit de modifier le code HTML de la modal et des list__
 A réaliser:
 
  - Afficher la modal au clic du bouton "supprimer"
-> Pour ce faire, supprimez la classe .modal--visible du HTML, puis ajoutez-la au clic de l'un des boutons "supprimer".
+> Pour ce faire, supprimez la classe `modal--visible` du HTML, puis ajoutez-la au clic de l'un des boutons "supprimer".
 
  - Afficher le titre de l'application dans le header de la modal
  - Cacher la modal au clic du bouton "annuler"
