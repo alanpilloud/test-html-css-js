@@ -21,6 +21,8 @@ sans pour autant prendre les mesures exactes de chaque padding ou margin.
   Cette classe est déjà appliquée dans le code HTML, la modal est donc affichée.
   Dans le chapitre "javascript" cette classe sera supprimée pour pouvoir afficher/cacher la modal.
 
+### Maquette
+
 ![Image de la modal](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/modal.png?raw=true)
 
 ## PHP
@@ -45,6 +47,8 @@ Un élément de liste se compose comme suit:
 </div>
 ```
 
+### Maquette
+
 ![Image du listing](https://github.com/alanpilloud/test-html-css-php-js/blob/master/images/listing.png?raw=true)
 
 ## JavaScript
@@ -53,7 +57,7 @@ Vous avez maintenant le droit de modifier le code HTML de la modal et des list__
 
 > Veuillez ne pas utiliser de librairies externes.
 
-A réaliser:
+### A réaliser:
 
  - Afficher la modal au clic du bouton "supprimer"
 > Pour ce faire, supprimez la classe `modal--visible` du HTML, puis ajoutez-la au clic de l'un des boutons "supprimer".
